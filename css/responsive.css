@@ -1,0 +1,151 @@
+
+
+@media(max-width: 991px){
+  .header .menu-overlay.active{
+  visibility: visible;
+  opacity: 1;
+  }
+  .header .logo img{
+     width: 100px;
+  }
+  .header.sticky .logo img{
+     width: 100px;
+  }
+  .header .nav-menu{
+    position: fixed;
+    right: -280px;
+    visibility: hidden;
+    width: 280px;
+    height: 100%;
+    top:0;
+    overflow-y: auto;
+    background:#7c1441;
+    z-index: 1000;
+    padding: 15px 0;
+    transition: all 0.5s ease;
+  }
+  .header .nav-menu.open{
+    visibility: visible;
+    right: 0px;
+  }
+  .header .nav-menu ul{
+    padding-top: 15px;
+  }
+  .header .menu li{
+    display: block;
+    margin:0;
+    padding: 10px 15px;
+  }
+  
+ .header .menu li a {
+  color: #fff;
+  display: block;
+ } 
+  
+  .header .close-nav-menu,
+  .header .open-nav-menu{
+    display: flex;
+  }
+ 
+}
+
+@media(max-width: 767px){
+
+  .banner-slider .banner-slider_item{
+    margin-top: 6px;
+  }
+  .banner-circle{
+    display: none;
+  }
+  .work-wrap .left{
+    width: 100%;
+  }
+  .work-wrap .right{
+    width: 100%;
+  }
+  .healthy-flex{
+    flex-wrap: wrap;
+  }
+  .healthy-flex li{
+    width: 100%;
+  }
+  .summer-flex{
+    flex-wrap: wrap;
+  }
+  .summer-flex li{
+    width: 100%;
+  }
+  .healthy-flex .icon{
+    width: 175px;
+    height: 175px;
+  }
+  .work-wrap{
+    padding-top: 25px;
+  }
+  .work-wrap .left{
+    padding-left: 30px;
+  }
+  .work-wrap .left h1{
+    font-size: 25px;
+  }
+  .work-wrap .left span{
+    font-size: 25px;
+  }
+.work-wrap .right{
+  margin-top: 30px;
+}
+  .work-wrap .right .image {
+    width: 175px;
+    height: 175px;
+  }
+  .work-wrap .right .image:before{
+    width: 200px;
+    height: 200px;
+  }
+  .work-wrap .right .image:after{
+    width: 225px;
+    height: 225px;
+  }
+  .work-wrap .right .vertical span{
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .work-wrap .left h5{
+    font-size: 16px;
+  }
+  .work-wrap .left .vertical span{
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .footer{
+    padding: 25px 0px;
+  }
+  .footer-info{
+    margin-bottom: 25px;
+    padding: 0px;
+    width: 100%;
+  }
+  .footer-links{
+    width: 50%;
+  }
+  .footer-top{
+    max-width: 100%;
+  }
+  .footer-top p{
+    font-size: 15px;
+  }
+  .footer_addres_detail p{
+    width: 100%;
+    font-size: 14px;
+  }
+  .footer-links ul li a {
+    font-size: 14px;
+  }
+  .footer-info img{
+    width: 130px;
+  }
+  .owl-dots{
+    bottom: 10px;
+  }
+}
+  
